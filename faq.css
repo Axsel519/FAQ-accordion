@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    --Font-size-paragraphs: 16px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--Light-pink);
+    background-image: url("faq-accordion-main/assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+}
+
+
+h4{
+    font-weight: 700; /* Bold headings */
+}
+
+h4:hover{
+    color: var(--Grayish-purple);
+    cursor: pointer;
+}
+
+.question img{
+    cursor: pointer;
+}
+
+h1 {
+    padding: 0vh 2vw;
+}
+
+p{
+    color:#969292;
+    font-size: var(--Font-size-paragraphs);
+    padding: 2vh 0vw;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.container {
+    padding: 10vh 25vw;
+}
+
+.card {
+    background-color: var(--White);
+    width: -webkit-fill-available;
+    max-width: 50vw;
+    padding: 5vh 4vw;
+    border-radius: 2vw;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2vh 0vw;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 0vw;
+}
+
+
